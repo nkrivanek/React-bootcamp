@@ -1,8 +1,8 @@
-import logo from './logo.svg';
+import logo from '../logo.svg';
 
-export const App = () => {
+ const Start = () => {
   return (
-    <div>
+    
         <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -18,6 +18,7 @@ export const App = () => {
         </a>
       </header>
       
-    </div>
+    
   );
 }
+export default Start;

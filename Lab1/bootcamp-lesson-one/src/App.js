@@ -1,15 +1,16 @@
 
 import './App.css';
 import { AnotherComponent } from './components/AnotherComponents';
-import {App} from './components/AppComponents';
+//import {Appp} from './components/AppComponents';
+import Appp from './components/AppComponents';
 
-function  App() {
+function App() {
   return (
     <div className="App">
-      <AnotherComponent title="Super components"/> 
-      <AnotherComponent title="Ovo je naslov 1"/>
-      <AnotherComponent title="Ovo je naslov 2"/>
-      <AnotherComponent title="Ovo je naslov 3"/>
+      <AnotherComponent title="I am a prop"/>
+      <Appp/>
+      <AnotherComponent title="I am a bad component"/>
+      <AnotherComponent/>
 
     </div>
   );
